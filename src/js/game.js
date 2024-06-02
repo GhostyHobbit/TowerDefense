@@ -30,6 +30,7 @@ export class Game extends Engine {
                 gravity: new Vector(0, 0)
             }  
         })
+        this.showDebug(false)
         this.start(ResourceLoader).then(() => this.startGame())
     }
 
